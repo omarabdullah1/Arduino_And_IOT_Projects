@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Desktop/esp_32_remotexy"
+		},
+		{
+			"name": "esp32_remotexy_board2",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
