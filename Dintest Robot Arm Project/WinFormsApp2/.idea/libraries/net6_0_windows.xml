@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="net6.0-windows">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WinFormsApp2/bin/Debug/net6.0-windows.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
