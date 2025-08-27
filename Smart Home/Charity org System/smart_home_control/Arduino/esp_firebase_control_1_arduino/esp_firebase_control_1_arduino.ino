@@ -22,11 +22,11 @@
 #define DELAY_AFTER_SEND 2000
 //-----------------------------------------------------------------------
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "network 2"
-#define WIFI_PASSWORD "ahmed@@@010"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 //-----------------------------------------------------------------------
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyAcTuv0zBi43Ru9m0Yn47hgFMK9JVb-4no"
+#define API_KEY "YOUR_API_KEY_HERE"
 //-----------------------------------------------------------------------
 /* 3. Define the RTDB URL */
 #define DATABASE_URL "https://smart-control-264fa-default-rtdb.firebaseio.com/"
