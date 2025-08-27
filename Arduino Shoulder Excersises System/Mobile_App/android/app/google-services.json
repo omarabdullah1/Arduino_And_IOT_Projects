@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "863316403391",
+    "project_number": "*************",
     "project_id": "shoulderexercises-a2b2b",
     "storage_bucket": "shoulderexercises-a2b2b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:863316403391:android:eb85876453e9749c06120a",
+        "mobilesdk_app_id": "1:863316403391:android:*********************",
         "android_client_info": {
           "package_name": "com.example.shoulder_exercies"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCTf05bKr8aNAohE-5Y6PFDRfZ5OWm23SM"
+          "current_key": "AIzaSyCTf05bKr********-****************"
         }
       ],
       "services": {
