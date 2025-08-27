@@ -25,50 +25,65 @@ This repository contains practical implementations of core Arduino and IoT conce
 
 ## 🛠️ Technologies & Components Used
 
-### Microcontrollers
+### 🖥 Microcontrollers
+- **Arduino UNO / Nano / Mega** → Core controller for robots, vending machines, sensor-based systems, and automation projects.  
+- **ESP32 / ESP32-CAM** → Smart irrigation system, surveillance car robot, motor control (RemoteXY).  
+- **NodeMCU (ESP8266)** → Solar panel tracker system and IoT-based applications.  
 
-* Arduino Uno
-* ESP8266 NodeMCU (For Wi-Fi & IoT capabilities)
-* ESP32 (For Bluetooth & Wi-Fi capabilities)
+---
 
-### Sensors & Modules
+### 📡 Sensors & Modules
+- **Ultrasonic Sensors (HC-SR04)** → Obstacle avoiding robots, parking system, radar project.  
+- **IR Sensors** → Line follower robots (2, 3, and 4 IR variations).  
+- **GPS Module** → Arduino V2V system with NRF GPS module.  
+- **GSR Sensor** → Raw data dumper to Excel + LCD I2C.  
+- **Flex Sensors** → Flex glove PC mouse control, Parkinson’s disease arm project.  
+- **Moisture Sensor** → Soil monitoring and irrigation systems.  
+- **Pressure Sensor** → Water pressure motor control.  
+- **Gas / Air Quality Sensors** → Air quality monitoring station.  
+- **Proximity Sensor** → Massage chair control unit.  
+- **Fire Sensor / Flame Detector** → Fire alarm system.  
+- **Temperature & Weather Sensors (DHT, BMP, etc.)** → Weather station Tx/Rx with NRF + OLED.  
+- **Color Sensor** → Color sorter project.  
 
-* DHT11/DHT22 (Temperature & Humidity)
-* HC-SR04 (Ultrasonic Distance)
-* MQ-2 (Gas/Smoke)
-* LDR (Light Dependent Resistor)
-* PIR Sensor (Motion)
-* IR Receiver & Remote
-* Joystick Module
-* RFID-RC522
-* Soil Moisture Sensor
-* Water Level Sensor
-* Relay Modules
-* LED Matrix (MAX7219)
-* LCD 16x2 (I2C)
+---
 
-### Actuators & Outputs
+### ⚙️ Actuators & Outputs
+- **Motors (DC, Servo, Stepper)** → Self-balancing robots, robotic arms, drones, RC airplanes, wire bending machine.  
+- **Motor Driver (L298N)** → Motor-controlled robots.  
+- **Relays** → Irrigation pump/motor control.  
+- **LEDs & LED Matrix** → 8x8 LED Matrix (MAX7219).  
+- **Displays**:  
+  - LCD (I2C) → Moisture data dumper, sensor visualizations.  
+  - 7-segment → Massage chair control unit.  
+  - TFT Display → Flappy Bird game.  
+  - OLED → Weather station receiver.  
+  - Projection Glasses → Voltameter project.  
+- **Servo Mechanisms** → Robot arms, flex-controlled servos, gimbals.  
 
-* LEDs
-* Servo Motors (SG90)
-* DC Motors (with L298N Driver)
-* Buzzers
-* LED Strips (WS2812B NeoPixel)
+---
 
-### Communication & IoT
+### 🌍 Communication & IoT
+- **NRF24L01** →  
+  - Weather station Tx/Rx  
+  - V2V system with GPS  
+  - RC airplanes with NRF24L01  
+  - Robots with NRF-based control  
+- **Bluetooth (HC-05/HC-06)** → Robot with BT control, robotic arm with smartphone.  
+- **WiFi (ESP8266/ESP32)** → ESP32 irrigation with Blynk, ESP32 surveillance car, motor control via RemoteXY.  
+- **Processing IDE** → Radar project visualization.  
+- **RemoteXY** → ESP32 motor remote control.  
 
-* Wi-Fi (ESP boards)
-* Bluetooth (HC-05, HC-06 modules and ESP32)
-* RFID (Radio-Frequency Identification)
-* IR (Infrared Communication)
+---
 
-### Platforms & Libraries
+### 🛠 Platforms & Libraries
+- **Arduino IDE** → Main development environment.  
+- **FreeRTOS** → Fire alarm system, vending machine (car-FreeRTOS), XYZ shape/size finder.  
+- **Blynk** → IoT-based smart irrigation system.  
+- **Processing** → Radar system visualization.  
+- **Firebase** → IoT data logging and backend integration.  
 
-* Arduino IDE
-* Blynk IoT Platform (For smartphone dashboards)
-* Adafruit IO (For cloud data logging)
-* ThingSpeak (For IoT analytics)
-* Arduino Libraries: DHT sensor library, Servo, LiquidCrystal\_I2C, NewPing, MQ2, FastLED, etc.
+---
 
 ---
 
