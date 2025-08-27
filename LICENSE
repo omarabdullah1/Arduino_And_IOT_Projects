@@ -19,26 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-###  Why This Works
-
-- **Clear structure & TOC** – Helps users navigate effortlessly.
-- **Overview + highlights** – Visitors quickly see what you've accomplished.
-- **Getting started guidance** – Essential for anyone wanting to try or build upon your work.
-- **Encourages contributions** – Opens the floor for collaboration.
-- **Professional polish** – A clean README acts like a project landing page.
-
----
-
-###  Next Steps (Optional Enhancements)
-
-- **Add badges**: Show repo stats, CI status, or Arduino/IoT tech stack using badge collections like *Badges4-README.md-Profile*: contentReference[oaicite:1]{index=1}.
-- **Visuals**: Include screenshots, wiring images, or GIF demos to make your projects more engaging—templates often highlight images in awesome READMEs: contentReference[oaicite:2]{index=2}.
-- **TOC generator**: Use tools like `gh-md-toc` to auto-generate/update your table of contents :contentReference[oaicite:3]{index=3}.
-
----
-
-Let me know if you'd like help customising the project highlight entries or if you'd like to spice up the README with badges and visuals!
-::contentReference[oaicite:4]{index=4}
