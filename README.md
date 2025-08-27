@@ -85,8 +85,6 @@ This repository contains practical implementations of core Arduino and IoT conce
 
 ---
 
----
-
 ## 📂 Project List
 
 Here's a summary of the projects included in this repo:
