@@ -44,9 +44,9 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC48FtigcoXeZaZwC6kj9QbUPKmRrWWj3w',
-    appId: '1:863316403391:web:3ecd0d0abac3d0f406120a',
-    messagingSenderId: '863316403391',
+    apiKey: 'AIzaSyC48FtigcoXeZaZ*******************',
+    appId: '1:863316403391:web:**********************',
+    messagingSenderId: '8633********',
     projectId: 'shoulderexercises-a2b2b',
     authDomain: 'shoulderexercises-a2b2b.firebaseapp.com',
     storageBucket: 'shoulderexercises-a2b2b.appspot.com',
@@ -54,16 +54,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCTf05bKr8aNAohE-5Y6PFDRfZ5OWm23SM',
-    appId: '1:863316403391:android:eb85876453e9749c06120a',
-    messagingSenderId: '863316403391',
+    apiKey: 'AIzaSyCTf05bKr8aNAo********************',
+    appId: '1:863316403391:android:**********************',
+    messagingSenderId: '************',
     projectId: 'shoulderexercises-a2b2b',
     storageBucket: 'shoulderexercises-a2b2b.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB0cFy9QU-1CjIKZ-bgWjD1T1kxUSqsoBo',
-    appId: '1:863316403391:ios:b5df6a9a0d82758b06120a',
+    apiKey: 'AIzaSyB0cFy9QU-************************',
+    appId: '1:863316403391:ios:**********************',
     messagingSenderId: '863316403391',
     projectId: 'shoulderexercises-a2b2b',
     storageBucket: 'shoulderexercises-a2b2b.appspot.com',
@@ -71,8 +71,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyB0cFy9QU-1CjIKZ-bgWjD1T1kxUSqsoBo',
-    appId: '1:863316403391:ios:a58f5f695a7df56206120a',
+    apiKey: 'AIzaSyB0cFy9QU-************************',
+    appId: '1:863316403391:ios:**********************',
     messagingSenderId: '863316403391',
     projectId: 'shoulderexercises-a2b2b',
     storageBucket: 'shoulderexercises-a2b2b.appspot.com',
