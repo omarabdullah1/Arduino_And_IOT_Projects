@@ -1,110 +1,163 @@
-# 🚀 Arduino and IoT Projects  
+# Arduino & IoT Projects Collection 🚀
 
-A curated collection of **Arduino** and **IoT** projects ranging from robotics, automation, and embedded systems to games and smart IoT applications.  
-Each project has its own folder with source code, wiring, and documentation.  
-
----
-
-## 📂 Table of Contents  
-- [About the Repository](#about-the-repository)  
-- [Projects](#projects)  
-  - [Gesture Control Robot](#gesture-control-robot)  
-  - [Line Follower Robots](#line-follower-robots)  
-  - [Self Balancing Robot](#self-balancing-robot)  
-  - [Air Quality Monitoring](#air-quality-monitoring)  
-  - [Glove-Controlled PC Mouse](#glove-controlled-pc-mouse)  
-  - [Radar System](#radar-system)  
-  - [3D Wire Bending Machine](#3d-wire-bending-machine)  
-  - [Smart Voting System](#smart-voting-system)  
-  - [Fire Alarm with FreeRTOS](#fire-alarm-with-freertos)  
-  - [Door Lock with Access Control](#door-lock-with-access-control)  
-  - [Solar Panel Tracker](#solar-panel-tracker)  
-  - [Camera Slider](#camera-slider)  
-  - [Flappy Bird on TFT](#flappy-bird-on-tft)  
-  - [Vending Machine with FreeRTOS](#vending-machine-with-freertos)  
-  - [RC Airplane with nRF24L01](#rc-airplane-with-nrf24l01)  
-  - [ESP32 Smart Irrigation with Blynk](#esp32-smart-irrigation-with-blynk)  
-  - [Smart Home System](#smart-home-system)  
-  - [Surveillance Car](#surveillance-car)  
-- [Getting Started](#getting-started)  
-- [Contributing](#contributing)  
-- [License](#license)  
+A curated collection of hands-on Arduino and Internet of Things (IoT) projects, ranging from beginner-friendly tutorials to more advanced integrations. This repository serves as a practical learning resource for electronics enthusiasts, students, and hobbyists.
 
 ---
 
-## 📝 About the Repository  
-This repository is a **showcase of projects** I’ve built while learning and experimenting with Arduino, IoT platforms, and embedded systems.  
+## 📖 Table of Contents
 
-It includes:  
-- 🤖 Robots & Automation  
-- 🌍 Sensor Systems (air, moisture, fire, etc.)  
-- 📡 IoT and ESP32 projects  
-- 🎮 Fun creative builds (games, gadgets)  
-- ⚙️ FreeRTOS multitasking applications  
-
----
-
-## 📂 Projects  
-
-### 🤖 [Gesture Control Robot](Arduino_Gesture_Control_Robot)  
-Control a robot using hand gestures with flex sensors and Arduino.  
-
-### 🚗 [Line Follower Robots](Arduino_Line_Follower_Robots)  
-Multiple variations of line-following robots using different sensors.  
-
-### 🌀 [Self Balancing Robot](Self_Balancing_Robot)  
-An Arduino-based two-wheel self-balancing robot using IMU sensors.  
-
-### 🌫️ [Air Quality Monitoring](Air_Quality_Monitoring)  
-Measures air pollutants using gas sensors and displays data.  
-
-### ✋ [Glove-Controlled PC Mouse](Glove_PC_Mouse)  
-Use a glove with flex sensors and accelerometer to move a PC mouse.  
-
-### 📡 [Radar System](Radar_Project)  
-Ultrasonic radar implemented with Arduino and servo motor scanning.  
-
-### 🛠️ [3D Wire Bending Machine](3D_Wire_Bending_Machine)  
-Automated machine for bending wire into programmed shapes.  
-
-### 🗳️ [Smart Voting System](Smart_Voting_System)  
-Secure electronic voting system using Arduino.  
-
-### 🔥 [Fire Alarm with FreeRTOS](Fire_Alarm_FreeRTOS)  
-Multitasking fire alarm project using FreeRTOS on Arduino.  
-
-### 🔑 [Door Lock with Access Control](Door_Lock_Access_Control)  
-Electronic door lock system with password authentication.  
-
-### ☀️ [Solar Panel Tracker](Solar_Panel_Tracker)  
-Arduino-based dual-axis solar tracker for maximum efficiency.  
-
-### 🎥 [Camera Slider](Camera_Slider)  
-Automated slider for smooth video and photography shots.  
-
-### 🎮 [Flappy Bird on TFT](Flappy_Bird_TFT)  
-Play Flappy Bird on a TFT display using Arduino graphics.  
-
-### 🏪 [Vending Machine with FreeRTOS](Vending_Machine_FreeRTOS)  
-Arduino vending machine simulation running with FreeRTOS tasks.  
-
-### ✈️ [RC Airplane with nRF24L01](RC_Airplane_nRF24L01)  
-Remote-controlled airplane using Arduino and nRF24L01 module.  
-
-### 💧 [ESP32 Smart Irrigation with Blynk](ESP32_Smart_Irrigation_Blynk)  
-IoT-enabled smart irrigation system controlled via mobile app.  
-
-### 🏠 [Smart Home System](Smart_Home)  
-Home automation system with sensors and actuators.  
-
-### 🚙 [Surveillance Car](Surveillance_Car)  
-ESP32/Arduino-powered car with wireless camera for surveillance.  
+* [Overview](#-overview)
+* [🛠️ Technologies & Components Used](#️-technologies--components-used)
+* [📂 Project List](#-project-list)
+* [🚀 Getting Started](#-getting-started)
+* [📁 Repository Structure](#-repository-structure)
+* [🤝 Contributing](#-contributing)
+* [📜 License](#-license)
+* [📞 Contact](#-contact)
 
 ---
 
-## ⚡ Getting Started  
+## 📖 Overview
 
-1. Clone this repository:  
+This repository contains practical implementations of core Arduino and IoT concepts. Each project is designed to demonstrate a specific set of skills, from basic sensor reading and actuator control to cloud connectivity and smartphone integration. The code is well-commented and the circuits are designed for clarity and learning.
+
+---
+
+## 🛠️ Technologies & Components Used
+
+### Microcontrollers
+
+* Arduino Uno
+* ESP8266 NodeMCU (For Wi-Fi & IoT capabilities)
+* ESP32 (For Bluetooth & Wi-Fi capabilities)
+
+### Sensors & Modules
+
+* DHT11/DHT22 (Temperature & Humidity)
+* HC-SR04 (Ultrasonic Distance)
+* MQ-2 (Gas/Smoke)
+* LDR (Light Dependent Resistor)
+* PIR Sensor (Motion)
+* IR Receiver & Remote
+* Joystick Module
+* RFID-RC522
+* Soil Moisture Sensor
+* Water Level Sensor
+* Relay Modules
+* LED Matrix (MAX7219)
+* LCD 16x2 (I2C)
+
+### Actuators & Outputs
+
+* LEDs
+* Servo Motors (SG90)
+* DC Motors (with L298N Driver)
+* Buzzers
+* LED Strips (WS2812B NeoPixel)
+
+### Communication & IoT
+
+* Wi-Fi (ESP boards)
+* Bluetooth (HC-05, HC-06 modules and ESP32)
+* RFID (Radio-Frequency Identification)
+* IR (Infrared Communication)
+
+### Platforms & Libraries
+
+* Arduino IDE
+* Blynk IoT Platform (For smartphone dashboards)
+* Adafruit IO (For cloud data logging)
+* ThingSpeak (For IoT analytics)
+* Arduino Libraries: DHT sensor library, Servo, LiquidCrystal\_I2C, NewPing, MQ2, FastLED, etc.
+
+---
+
+## 📂 Project List
+
+Here's a summary of the projects included in this repo:
+
+| Project Name                                                                                                                        | Microcontroller  | Key Components               | Description                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ---------------------------- | --------------------------------------------------------- |
+| [8\_8\_LED\_Matrix\_MAX7219](./8_8_LED_Matrix_MAX7219/)                                                                             | Arduino Uno      | MAX7219, 8×8 LED Matrix      | Displays custom patterns, text, and animations.           |
+| [ARDUINO\_\_OBSTACLE\_AVOIDING\_ROBOT\_USING\_3\_ULTRASONIC\_SENSOR](./ARDUINO__OBSTACLE_AVOIDING_ROBOT_USING_3_ULTRASONIC_SENSOR/) | Arduino Uno      | 3× HC-SR04, L298N, DC Motors | Robot avoids obstacles using multiple ultrasonic sensors. |
+| [Arduino\_Glove\_Control\_Pc\_Mouse](./Arduino_Glove_Control_Pc_Mouse/)                                                             | Arduino Nano     | Flex Sensors, MPU6050, HC-05 | Gesture-controlled glove that moves PC mouse cursor.      |
+| [Arduino\_Smart\_Voting\_System](./Arduino_Smart_Voting_System/)                                                                    | Arduino Uno      | Keypad, LCD I2C, EEPROM      | Secure and tamper-proof electronic voting machine.        |
+| [Arduino\_Fire\_Alarm\_System\_With\_Free\_RTOS](./Arduino_Fire_Alarm_System_With_Free_RTOS/)                                       | Arduino Uno/MEGA | MQ-2, DHT11, Buzzer          | Fire and smoke alarm system using FreeRTOS.               |
+| [ESP32\_Smart\_Irrigation\_Project\_With\_Blync](./ESP32_Smart_Irrigation_Project_With_Blync/)                                      | ESP32            | Soil Moisture, Relay, Blynk  | Automated irrigation system controllable via mobile app.  |
+
+*(Extend the table with all other projects in the repo.)*
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* **Arduino IDE:** [Download & Install](https://www.arduino.cc/en/software)
+* **ESP8266/ESP32 Board Support:** Install via Arduino IDE Boards Manager.
+* **Required Libraries:** Install project-specific libraries (DHT, Blynk, LiquidCrystal\_I2C, etc.) via Arduino IDE Library Manager.
+
+### Installation & Usage
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/omarabdullah1/Arduino_And_IOT_Projects.git
-   cd Arduino_And_IOT_Projects
+   ```
+2. Navigate to the desired project folder.
+3. Open the `.ino` file in Arduino IDE.
+4. Connect your board (Arduino/NodeMCU/ESP32).
+5. Select the correct **board** and **port** in Tools menu.
+6. For IoT projects:
+
+   * Configure Blynk/Adafruit IO credentials.
+   * Replace `Auth Token` and Wi-Fi credentials in the sketch.
+   * Setup dashboard as instructed.
+7. Upload the code and monitor using Serial Monitor.
+
+---
+
+## 📁 Repository Structure
+
+```bash
+Arduino_And_IOT_Projects/
+├── 8_8_LED_Matrix_MAX7219/
+│   ├── code.ino
+│   └── circuit_diagram.png
+├── ARDUINO__OBSTACLE_AVOIDING_ROBOT_USING_3_ULTRASONIC_SENSOR/
+├── Arduino_Glove_Control_Pc_Mouse/
+├── Arduino_Smart_Voting_System/
+├── Arduino_Fire_Alarm_System_With_Free_RTOS/
+├── ESP32_Smart_Irrigation_Project_With_Blync/
+├── ... # Other project folders
+└── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork this repo.
+2. Create a new branch (`git checkout -b feature/NewProject`).
+3. Commit your changes (`git commit -m 'Add NewProject'`).
+4. Push to the branch (`git push origin feature/NewProject`).
+5. Open a Pull Request.
+
+---
+
+## 📜 License
+
+This repository is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📞 Contact
+
+**Omar Abdullah**
+Portfolio: [omarabdullah1.github.io/my\_website.io](https://omarabdullah1.github.io/my_website.io/)
+GitHub: [omarabdullah1](https://github.com/omarabdullah1)
+LinkedIn: [Omar Abdullah](https://www.linkedin.com/in/omar-abdullah1/)
+
+Project Link: [Arduino & IoT Projects](https://github.com/omarabdullah1/Arduino_And_IOT_Projects)
